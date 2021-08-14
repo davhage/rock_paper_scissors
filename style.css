@@ -1,0 +1,74 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.images {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: .5rem;
+    height: 250px;
+    width: 230px;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: transparent;
+    border: .2rem solid black;
+    border-radius: .4rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 60px;
+    width: 140px;
+}
+
+.winner {
+    border: .2rem solid black;
+    border-radius: .4rem;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 80px;
+    justify-content: center;
+    width: 240px;
+    margin: auto;
+}
+
+div {
+    margin: 1.5rem;
+}
+
+.winner {
+    text-align: center;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}

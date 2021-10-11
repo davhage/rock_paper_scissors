@@ -10,20 +10,20 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <head class="title">
+    <header class="title">
         <h1>Lets play Rock, Paper, Scissors</h1>
         <h2>Choose your weapon</h2>
-    </head>
+    </header>
     <main class="selector">
         <div class="images">
-            <img src="images/rock.png" alt="Rock" id="rock-button" class="btn-play">
-            <img src="images/paper.png" alt="Paper" id="paper-button" class="btn-play">
-            <img src="images/scissors.png" alt="Scissors" id="scissors-button" class="btn-play">
+            <input type="button" value="rock" class="rock"></input>
+            <input type="button" value="paper" class="paper"></input>
+            <input type="button" value="scissors" class="scissors"></input>
         </div>
         <div class="boxes">
-            <div class="winner" id="player-result"></div>
+            <div class="winner" id="player"></div>
             <div class="winner" id="result"></div>
-            <div class="winner" id="computer-result"></div>
+            <div class="winner" id="computer"></div>
         </div>
         <div class="buttons">
             <button id="new-game-btn">New game</button>

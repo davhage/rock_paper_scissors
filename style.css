@@ -1,0 +1,104 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.images {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    border-radius: .5rem;
+    height: 15.625rem;
+    width: 14.375rem;
+}
+
+.rock {
+    background-image: url(images/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -999rem;
+}
+
+.paper {
+    background-image: url(images/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -999rem;
+}
+
+.scissors {
+    background-image: url(images/scissors.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -999rem;
+}
+.winner {
+    align-items: center;
+    border: .2rem solid black;
+    border-radius: .4rem;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 8.125rem;
+    justify-content: center;
+    margin: auto;
+    width: 15rem;
+}
+
+.buttons, .boxes  {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: transparent;
+    border: .2rem solid black;
+    border-radius: .4rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 60px;
+    width: 140px;
+}
+
+div {
+    margin: 1.5rem;
+}
+
+.winner {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}

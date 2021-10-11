@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
     <title>Rock Paper Scissors</title>
-    <script src="main.js"></script>
 </head>
 <body>
-
+    <header class="title">
+        <h1>Lets play Rock, Paper, Scissors</h1>
+        <h2>Choose your weapon</h2>
+    </header>
+    <main class="selector">
+        <div class="images">
+            <input type="button" value="rock" class="rock"></input>
+            <input type="button" value="paper" class="paper"></input>
+            <input type="button" value="scissors" class="scissors"></input>
+        </div>
+        <div class="boxes">
+            <div class="winner" id="player"></div>
+            <div class="winner" id="result"></div>
+            <div class="winner" id="computer"></div>
+        </div>
+        <div class="buttons">
+            <button id="new-game-btn">New game</button>
+        </div>
+    </main>
+    <footer>
+        <p>Rock, paper, scissors made by David Hage for the odin project. You can know more about me on my <a href="https://github.com/noobiCoder" target="_blank">GitHub.</a></p>
+        <p>Background image powered by <a href="https://www.vecteezy.com/free-vector/human" target="_blank">Human Vectors by Vecteezy</a></p>
+    </footer>
 </body>
 </html>
